@@ -6,7 +6,6 @@ Este proyecto es una implementación de un clon de la aplicación de mensajería
 ![Screenshot_1691296450](https://github.com/arnoldbgm/flutter-login-ui/assets/108824074/673fc2f3-4256-4ee2-a23e-0b944f71b3ec )
 
 
-
 ## Requisitos
 Antes de empezar, asegúrate de tener instalado Flutter en tu sistema. Puedes obtener Flutter en [flutter.dev](https://flutter.dev/). Además, asegúrate de tener una versión de Dart compatible con el SDK especificado en el archivo `pubspec.yaml`.
 
