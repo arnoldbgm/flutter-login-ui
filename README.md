@@ -1,7 +1,7 @@
 # Documentación del proyecto Flutter Login UI
 
 ## Descripción
-Este proyecto es una implementación de un clon de la aplicación de mensajería WhatsApp utilizando el framework Flutter. El objetivo principal de este proyecto es demostrar cómo se pueden utilizar las capacidades de Flutter para crear una interfaz de usuario similar a la de WhatsApp y simular algunas de sus funcionalidades básicas.
+Este proyecto es una implementación de un login a nivel ui el cual puede ser usado como base para futuros proyectos de la comunidad.
 
 <img src="https://github.com/arnoldbgm/flutter-login-ui/assets/108824074/673fc2f3-4256-4ee2-a23e-0b944f71b3ec" alt="Screenshot" width="300">
 
@@ -17,22 +17,27 @@ Este proyecto hace uso de las siguientes dependencias:
 ## Instalación
 1. Clona este repositorio en tu máquina local utilizando el siguiente comando:
 
+```git
 git clone <URL del repositorio>
+```
 
 2. Navega al directorio del proyecto:
 
+```git
 cd flutter_clone_whatsapp
-
+```
 
 3. Asegúrate de tener todas las dependencias requeridas instaladas ejecutando el siguiente comando:
 
+```git
 flutter pub get
+```
 
 ## Ejecución
 Para ejecutar la aplicación en un emulador o dispositivo físico, utiliza el siguiente comando:
-
+```git
 flutter run
-
+```
 ## Contribución
 Las contribuciones a este proyecto son bienvenidas. Si deseas contribuir, sigue los siguientes pasos:
 
@@ -41,7 +46,5 @@ Las contribuciones a este proyecto son bienvenidas. Si deseas contribuir, sigue 
 3. Realiza los cambios y realiza las pruebas necesarias.
 4. Envía una solicitud de extracción (pull request) a la rama principal del repositorio.
 
-## Contacto
-Si tienes preguntas o sugerencias sobre el proyecto, no dudes en contactar al autor:
 
 ¡Gracias por tu interés en este proyecto! Esperamos que encuentres esta aplicación de ejemplo útil para aprender y explorar el desarrollo de aplicaciones móviles con Flutter.
