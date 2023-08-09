@@ -3,7 +3,8 @@
 ## Descripción
 Este proyecto es una implementación de un login a nivel ui el cual puede ser usado como base para futuros proyectos de la comunidad.
 
-<img src="https://github.com/arnoldbgm/flutter-login-ui/assets/108824074/673fc2f3-4256-4ee2-a23e-0b944f71b3ec" alt="Screenshot" width="300">
+<img src="https://github.com/arnoldbgm/flutter-login-ui/assets/108824074/673fc2f3-4256-4ee2-a23e-0b944f71b3ec" alt="Screenshot" width="300"> 
+<img src="https://github.com/arnoldbgm/flutter-login-ui/assets/108824074/9df52cc4-98df-4dc0-8200-48c34565ec03" alt="Screenshot" width="300"> 
 
 ## Requisitos
 Antes de empezar, asegúrate de tener instalado Flutter en tu sistema. Puedes obtener Flutter en [flutter.dev](https://flutter.dev/). Además, asegúrate de tener una versión de Dart compatible con el SDK especificado en el archivo `pubspec.yaml`.
