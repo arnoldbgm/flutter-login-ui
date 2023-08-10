@@ -143,6 +143,7 @@ class ParkingPage extends StatelessWidget {
               padding:
                   const EdgeInsets.symmetric(horizontal: 14.0, vertical: 12.0),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -175,7 +176,9 @@ class ParkingPage extends StatelessWidget {
                     ],
                   ),
                   //Start Card
-                  const SizedBox(height: 22.0,),
+                  const SizedBox(
+                    height: 22.0,
+                  ),
                   SingleChildScrollView(
                     scrollDirection: Axis.horizontal,
                     physics: BouncingScrollPhysics(),
@@ -186,13 +189,129 @@ class ParkingPage extends StatelessWidget {
                         ItemSliderWidget(),
                         ItemSliderWidget(),
                         ItemSliderWidget(),
-
                       ],
                     ),
                   ),
                   //End Card
+                  const SizedBox(
+                    height: 8.0,
+                  ),
+                  Text(
+                    "History Parking",
+                    style: GoogleFonts.montserrat(
+                      color: kColorPrimaryParking,
+                      fontWeight: FontWeight.w600,
+                      fontSize: 16.0,
+                    ),
+                  ),
+                  const SizedBox(
+                    height: 12.0,
+                  ),
+                  ItemListCard(),
+                  const SizedBox(height: 12.0,),
+                  ItemListCard(),
+                  
+                  const SizedBox(height: 12.0,),
+                  ItemListCard(),
+                  const SizedBox(height: 12.0,),
+                  ItemListCard(),
+                  const SizedBox(height: 12.0,),
+                  ItemListCard(),
+                  const SizedBox(height: 12.0,),
+                  ItemListCard(),
+                  const SizedBox(height: 12.0,),
+                  ItemListCard(),
+                  const SizedBox(height: 12.0,),
+                  ItemListCard(),
                 ],
               ),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class ItemListCard extends StatelessWidget {
+  const ItemListCard({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: double.infinity,
+      decoration: BoxDecoration(
+        color: Color(0xffFFFFFF),
+        borderRadius: BorderRadius.circular(16.0),
+        boxShadow: [
+          BoxShadow(
+            blurRadius: 12.0,
+            color: Colors.black.withOpacity(0.07),
+            offset: Offset(4, 4),
+          )
+        ],
+      ),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(
+            vertical: 12.0, horizontal: 16.0),
+        child: Row(
+          children: [
+            Image.asset(
+              'assets/images/car.png',
+              scale: 2.2,
+            ),
+            const SizedBox(
+              width: 10,
+            ),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "Blok A Sarimi",
+                    overflow: TextOverflow.ellipsis,
+                    style: GoogleFonts.montserrat(
+                        color: kColorPrimaryParking,
+                        fontSize: 16.0,
+                        fontWeight: FontWeight.w700),
+                  ),
+                  const SizedBox(
+                    height: 3.5,
+                  ),
+                  Text(
+                    "Desa Majumunduraman asdas",
+                    overflow: TextOverflow.ellipsis,
+                    style: GoogleFonts.montserrat(
+                        color: Colors.black.withOpacity(0.65),
+                        fontSize: 12.0,
+                        fontWeight: FontWeight.w400),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(width: 25,),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: [
+                Text(
+                  "05, Sep 2021",
+                  overflow: TextOverflow.ellipsis,
+                  style: GoogleFonts.montserrat(
+                      color: Colors.black.withOpacity(0.65),
+                      fontSize: 12.0,
+                      fontWeight: FontWeight.w600),
+                ),
+                Text(
+                  "\$30.00",
+                  overflow: TextOverflow.ellipsis,
+                  style: GoogleFonts.montserrat(
+                      color: Color(0xff52B096),
+                      fontSize: 14.0,
+                      fontWeight: FontWeight.w600),
+                ),
+              ],
             )
           ],
         ),
